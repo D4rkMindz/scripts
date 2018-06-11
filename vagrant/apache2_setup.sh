@@ -9,14 +9,14 @@
 #               To see "Call" to run this script to setup vagrant like described on 
 #               https://lernjournal.d4rkmindz.ch/doku.php/installationen:vagrant (german) 
 # Autor:        Björn Pfoster
-# Version:      1.0.0
+# Version:      1.0.1
 # Datum:        2018.06.11
 
 # Update
 sudo apt-get update && sudo apt-get -y dist-upgrade
 
 # Install system tools
-sudo apt-get -y install htop ncdu lynx ntp unzip ccze
+sudo apt-get -y install htop ncdu lynx ntp unzip #ccze
 
 # Install Apache
 sudo apt-get -y install apache2
